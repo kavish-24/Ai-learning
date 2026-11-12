@@ -2174,6 +2174,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "beautifulsoup4" },
+    { name = "chromadb" },
     { name = "faiss-cpu" },
     { name = "fastapi" },
     { name = "ipykernel" },
@@ -2204,6 +2205,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.15.0" },
+    { name = "chromadb", specifier = ">=1.5.9" },
     { name = "faiss-cpu", specifier = ">=1.15.1" },
     { name = "fastapi", specifier = ">=0.162.0" },
     { name = "ipykernel", specifier = ">=7.4.0" },
